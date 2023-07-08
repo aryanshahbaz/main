@@ -1,0 +1,4 @@
+#858585 -> Background footer
+#255228 -> shadow footer
+#d2d2d2 -> backgorund page
+014c8c

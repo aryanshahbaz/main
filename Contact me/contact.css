@@ -1,0 +1,20 @@
+.text{
+    font-family:Bel;
+    color:#921ca4;
+    z-index:2;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 69px;
+}
+.icon{
+    width:10%;
+    margin-left:30%;
+}
+.text2{
+    font-family:Bel;
+    color:#921ca4;
+    z-index:2;
+    font-size: 32px;
+    text-align: center;
+    margin-top: 69px;
+}

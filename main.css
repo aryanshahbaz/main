@@ -1,0 +1,72 @@
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+  /* Create four equal columns that sits next to each other */
+  .column {
+    flex: 25%;
+    max-width: 50%;
+    padding: 0 8px;
+  }
+
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    border-radius: 35px;
+    width: 100%;
+    border:5px solid #921ca4;
+    /* border:5px solid #014c8c; */
+    box-shadow: 0px 0px 10px #000000;
+    z-index: 0;
+    filter:blur(7px);
+    /* animation-name: blur_img;
+    animation-delay: 1.5s;
+    animation-duration: 3s;
+    animation-name: keep_blur;
+    animation-delay: 4.5s;
+    animation-duration: 3s;
+    animation-iteration-count: infinite; */
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 800px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+  @keyframes blur_img{
+    from{filter:blur(0px);}
+    to{filter:blur(6px);}
+  }
+  @keyframes keep_blur{
+    from{filter:blur(6px);}
+    to{filter:blur(6px);}
+  }
+  @font-face{
+    font-family:Bel;
+    src:url("./CSS/Belanosima-Regular.ttf");
+}
+  .text{
+    font-family:Bel;
+    color:#921ca4;
+    z-index:2;
+    /* transform: translateY(-1200px); */
+    font-size: 120px;
+    text-align: center;
+  }
+  @keyframes opacity_text{
+    from{opacity: 0%;}
+    to{opacity:100%;}
+  }
+  
